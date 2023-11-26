@@ -1,10 +1,11 @@
 import SideBar from '../components/SideBar'
-import ArtBoard from '../components/ArtBoard'
+import FtoC from '../components/FtoC'
 
 const HomeFC = () => {
   return (
     <div>
-        
+        <SideBar/>
+        <FtoC/>
     </div>
   )
 }

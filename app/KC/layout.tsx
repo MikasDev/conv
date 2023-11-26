@@ -1,6 +1,6 @@
 import React from 'react'
 
-const layoutCF = ({
+const layoutKC = ({
     children,
 }: {
     children:React.ReactNode
@@ -12,4 +12,4 @@ const layoutCF = ({
   )
 }
 
-export default layoutCF
+export default layoutKC

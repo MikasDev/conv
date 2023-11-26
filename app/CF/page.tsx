@@ -1,14 +1,14 @@
 
 import SideBar from '../components/SideBar'
-import ArtBoard from '../components/ArtBoard'
+import CtoF from '../components/CtoF'
 
 
 const CFHome = () => {
+
   return (
     <div>
         <SideBar/>
-        <ArtBoard/>
-
+        <CtoF/>
     </div>
   )
 }
