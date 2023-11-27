@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 const SideBar = () => {
   return (
-    <div>
+    <div className="flex justify-center items-center h-screen">
       <div className="drawer">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content">
+        <div className="drawer-content flex justify-center">
           {/* Page content here */}
-          <label htmlFor="my-drawer" className="btn btn-primary drawer-button flex justify-center items-center">
+          <label htmlFor="my-drawer" className="btn btn-primary drawer-button w-40">
             List
           </label>
         </div>
