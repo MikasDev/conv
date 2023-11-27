@@ -10,7 +10,7 @@ const KtoC = () => {
       </div>
     </div>
     <div className='flex justify-center'>
-      < button className="btn btn-primary" onClick={calculatorKtoC}>Calculate</button>
+      < button className="btn btn-primary w-32" onClick={calculatorKtoC}>Calculate</button>
       </div>
 
       <div className='flex justify-center p-5'>

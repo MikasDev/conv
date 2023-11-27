@@ -10,7 +10,7 @@ const FtoC = () => {
       </div>
     </div>
     <div className='flex justify-center'>
-      < button className="btn btn-primary" onClick={calculatorFtoC}>Calculate</button>
+      < button className="btn btn-primary w-32" onClick={calculatorFtoC}>Calculate</button>
       </div>
 
       <div className='flex justify-center p-5'>
