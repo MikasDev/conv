@@ -12,6 +12,8 @@
            if (!isNaN(inputValue)) {
                //  cálculo para converter Celsius para Fahrenheit
                var cover = (inputValue * 1.8) + 32;
+
+               var coverformated = cover.toFixed(2)
    
                // Obtenha o elemento de resultado pelo ID
                var resultadoElement = document.getElementById('resultado');
@@ -19,7 +21,7 @@
                // Verifique se o elemento de resultado não é nulo
                if (resultadoElement !== null) {
                    // Atualize o conteúdo do elemento de resultado com o resultado do cálculo em Fahrenheit
-                   resultadoElement.innerHTML = cover + ' F';
+                   resultadoElement.innerHTML = coverformated + '°F';
                } else {
                    console.log('Elemento de resultado não encontrado');
                }
@@ -43,6 +45,8 @@
          if (!isNaN(inputValue)) {
              
              var cover = (inputValue - 32)/ 1.8;
+
+             var coverformated = cover.toFixed(2)
    
              
              var resultadoElement = document.getElementById('resultado');
@@ -50,7 +54,7 @@
              
              if (resultadoElement !== null) {
                 
-                 resultadoElement.innerHTML = cover + 'C';
+                 resultadoElement.innerHTML = coverformated + '°C';
              } else {
                  console.log('Elemento de resultado não encontrado');
              }
@@ -75,6 +79,8 @@
          if (!isNaN(inputValue)) {
             
              var cover = (inputValue +273.15)
+
+             var coverfomated = cover.toFixed(2)
    
              
              var resultadoElement = document.getElementById('resultado');
@@ -82,7 +88,7 @@
              
              if (resultadoElement !== null) {
                 
-                 resultadoElement.innerHTML = cover + 'K';
+                 resultadoElement.innerHTML = coverfomated + '°K';
              } else {
                  console.log('Elemento de resultado não encontrado');
              }
@@ -107,6 +113,7 @@
          if (!isNaN(inputValue)) {
              
              var cover = (inputValue - 273.15);
+             var coverformated = cover.toFixed(2)
    
              
              var resultadoElement = document.getElementById('resultado');
@@ -114,7 +121,7 @@
              
              if (resultadoElement !== null) {
                  
-                 resultadoElement.innerHTML = cover + 'C';
+                 resultadoElement.innerHTML = coverformated + '°C';
              } else {
                  console.log('Elemento de resultado não encontrado');
              }
